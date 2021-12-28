@@ -1,0 +1,134 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0%;
+}
+/*Search Bar*/
+.searchBar {
+    height: 65px;
+    background-color: white;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    z-index: 500;
+}
+.mediumLogo {
+    height: 45px;
+    width: auto;
+    align-self: center;
+}
+.menu{
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-self: center;
+}
+.buttons {
+    height: 28px;
+    width: auto;
+    margin-right: 10px;
+}
+.upgrade {
+    
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.upgrade p {
+    margin: 5px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.user p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Main Content*/
+/*Article Bar*/
+.mainContent {
+    height: 5000px;
+    width: 1903;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.articleBar {
+    height: 5000px;
+    width: 900px;
+    min-width: 743px;
+    margin-left: 7%;
+    margin-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: #c0c0c0 solid;
+    border-width: 1px;
+}
+.feed {
+    align-self: flex-start;
+    padding-top: 56px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: #c0c0c0 solid;
+    border-width: 1px;
+    
+}
+.feed h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c0c0c0;
+    font-size: 15px;
+    padding-right: 15px;
+    margin-bottom: 0%;
+    padding-bottom: 15px;
+}
+.feed h4:hover {
+    color: dimgray;
+    border-bottom: dimgray solid;
+    border-width: 1px;
+}
+/*Articles*/
+.articles {
+    padding-top: 56px;
+}
+.entry {
+    background-color: firebrick;
+    width: 90%;
+    height: 134px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image {
+    width: 200px;
+    height: 134px;
+    background-color: fuchsia;
+}
+.articleImage {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+/*Side Bar*/
+.sideBar {
+    height: 5000px;
+    width: 470px;
+    margin-right: 6%;
+}
