@@ -58,7 +58,7 @@ body {
 /*Main Content*/
 /*Article Bar*/
 .mainContent {
-    height: 5000px;
+    height: auto;
     width: 1903;
     margin-left: 10%;
     margin-right: 10%;
@@ -67,7 +67,7 @@ body {
     justify-content: flex-start;
 }
 .articleBar {
-    height: 5000px;
+    height: auto;
     width: 900px;
     min-width: 743px;
     margin-left: 7%;
@@ -120,6 +120,7 @@ body {
 .image {
     width: 200px;
     height: 134px;
+    min-width: 200px;
 }
 .articleImage {
     width: 100%;
@@ -175,11 +176,113 @@ body {
     color: #c0c0c0;
 }
 
-
-
 /*Side Bar*/
 .sideBar {
-    height: 5000px;
+    height: 300px;
     width: 470px;
     margin-right: 6%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding-top: 56px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.socials {
+    border-bottom: #c0c0c0 solid;
+    border-width: 1px;
+}
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.recommendation h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31363a;
+}
+.rt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.topics {
+    background-color: #e7e9eb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.fallow {
+    padding-bottom: 40px;
+}
+.fallow h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31363a;
+}
+.profiles {
+    display: flex;
+    flex-direction: row;
+    min-width: 421px;
+    margin-bottom: 20px;
+}
+.profilesLeft {
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+    align-self: flex-start ;
+}
+.profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profilesCentre {
+    padding-right: 25px;
+    min-width: 222px;
+    max-width: 223px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.profilesCentre h6 {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31363a;
+    font-size: 15px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+.profilesCentre p {
+    margin: 0px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.profilesRight {
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: gray solid;
+    border-width: 1px;
+    border-radius: 20px 20px 20px 20px;
+}
+.profilesRight p {
+    color: gray;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.terms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.terms p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
 }
