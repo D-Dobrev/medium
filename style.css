@@ -114,12 +114,13 @@ body {
     justify-content: space-between;
 }
 .text {
-    min-width: 530px;
+    min-width: 500px;
+    padding-right: 30px;
 }
 
 .image {
     width: 200px;
-    height: 134px;
+    height: 140px;
     min-width: 200px;
 }
 .articleImage {
@@ -185,12 +186,46 @@ body {
     flex-direction: column;
     margin-left: 80px;
     padding-top: 56px;
-    position: -webkit-sticky;
     position: sticky;
+    /*top: 0;*/
 }
 .socials {
     border-bottom: #c0c0c0 solid;
     border-width: 1px;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logos p {
+    align-self: center;
+    font-size: 30px;
+}
+.mediumImg {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+}
+.twitterImg {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    padding-left: 10px;
+}
+.discover {
+    display: flex;
+    flex-direction: column;
+}
+.discover p {
+    align-self: center;
+    color: gray;
+}
+.large {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    margin: 0px;
 }
 .recommendation {
     display: flex;
@@ -274,6 +309,51 @@ body {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.savedArticle {
+    display: flex;
+    flex-direction: column;
+}
+.savedArticle h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31363a;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.sbAuthor {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+    align-self: center;
+    border-radius: 20%;
+}
+.sbBold {
+    font-weight: bolder;
+    padding-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31363a; 
+}
+.sbGray {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 3px;
+    color: gray;
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section3 p {
+    padding-right: 3px;
+}
+.savedArticle h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31363a;
+    margin: 0px;
 }
 .terms {
     display: flex;
