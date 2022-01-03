@@ -171,12 +171,19 @@ body {
 }
 .info {
     display: flex;
-
+}
+.info p {
+    padding-right: 5px;
 }
 .bottom p {
     color: #c0c0c0;
 }
-
+.infoIcons {
+    width: 20px;
+}
+.infoIcons2 {
+    width: 20px;
+}
 /*Side Bar*/
 .sideBar {
     height: 300px;
@@ -220,6 +227,22 @@ body {
 .discover p {
     align-self: center;
     color: gray;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color: #e7e9eb;
+    border-style: solid;
+    width: 50%;
+    margin-top: 20px;
+    align-self: center;
+    border-radius: 30px 30px 30px 30px;
+}
+.twitterSmall {
+    height: 30px;
+    width: auto;
+    align-self: center;
 }
 .large {
     font-size: 20px;
